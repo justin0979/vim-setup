@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/scrat/.vim'
+let g:netrw_dirhist_2='/home/scrat/pract/node_modules'
+let g:netrw_dirhist_3='/home/scrat/Documents/WebDevPractice/Authentication'
+let g:netrw_dirhist_4='/home/scrat/.vim/bundle'
+let g:netrw_dirhist_5='/home/scrat/Documents/TestingWebsite/NodeTesting/first/node_modules'
+let g:netrw_dirhist_6='/home/scrat/pract/test'
+let g:netrw_dirhist_7='/home/scrat/Documents/first/node_modules'
+let g:netrw_dirhist_8='/home/scrat/.vim/bundle'
+let g:netrw_dirhist_9='/home/scrat/.vim'
