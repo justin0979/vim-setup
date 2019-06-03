@@ -10,7 +10,7 @@ set expandtab
 set softtabstop=2
 set list lcs=tab:\|\ 
 
-"Ale setup"
+" =================== Ale setup ===================
 ""let g:ale_fixers = {
 ""\   'javascript': ['prettier', 'eslint'],
 ""\   'css': [],
@@ -24,4 +24,15 @@ call ale#linter#Define('javascript', {
 \   'command_callback': 'ale#handlers#eslint#GetCommand',
 \   'callback': 'ale#handlers#eslint#Handle',
 \})
-"End Ale setup"
+" ============ End Ale setup ===================
+
+" ============ vim-prettier setup =================
+"
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+
+let g:prettier#config#print_width = 111
+
+let g:prettier#config#trailing_comma = 'none'
+"
+" ============ End vim-prettier setup ===================
