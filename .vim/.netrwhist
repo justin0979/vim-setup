@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/scrat/Documents/WebDevPractice/React/S.Grider_React/ModernReactWithRedux/videos/src/components'
-let g:netrw_dirhist_2='/home/scrat/Documents/WebDevPractice/React/S.Grider_React/ModernReactWithRedux/songs/src/reducers'
-let g:netrw_dirhist_3='/home/scrat/Documents/WebDevPractice/React/S.Grider_React/ModernReactWithRedux/blog/src/apis'
